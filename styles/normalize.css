@@ -1,0 +1,32 @@
+/* Normalize CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    padding-left: 22px;
+}
+button,
+input {
+    font: inherit;
+}
